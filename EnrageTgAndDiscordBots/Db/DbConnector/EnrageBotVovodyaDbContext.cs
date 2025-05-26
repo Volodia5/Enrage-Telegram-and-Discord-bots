@@ -22,7 +22,7 @@ public partial class EnrageBotVovodyaDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=83.147.246.87:5432;Database=enrage_bot_vovodya_db;Username=enrage_bot_vovodya_user;Password=12345");
+        => optionsBuilder.UseNpgsql("your connection string");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
